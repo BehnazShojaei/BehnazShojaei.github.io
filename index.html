@@ -5,18 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <title>My Profile</title>
+    <title>Behnaz Shojaei</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <p>Hello world!</p>
-    <h2>Look, a picture of a silly dog!</h2>
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/4/48/Silly_Dog_%282277051513%29.jpg"
-        alt="A silly looking dog."
-        width="400px" 
-    />
+    <header>
+        <!-- header fixed on both mobile/desktop, hamburger-button for smaller screen, align to left -->
+
+        <div class="mobile-header">
+            <img src="./logo.jpg" alt="persian rug symbol" class="logo">
+            <button type="button" class="hamburger-button">
+                <img class="hamburger-icon" src="./img/hamburger.svg"
+                    alt="Three horizontal lines, positioned one above the other." />
+            </button>
+        </div>
+        <!-- desktop header  -->
+        <nav class="desktop-nav" aria-label="Primary">
+            <ul>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- mobile header -->
+        <nav style="position:fixed" class="mobile-nav display-none" aria-label="Primary">
+            <ul>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main include 4 sections (banner, bio, portfolio, contact(small photo of me + connect button)) -->
+    <main>
+        <!-- banner section has two divs : intro (include connect button) + img -->
+        <section  class="banner-background">
+            <div class="banner">
+                <div class="banner-title">>
+                    <h1> Hi, my</h1>
+                    <h1>name is <b>Behnaz</b>.</h1>
+                    <p class="banner-text">
+                        I'm a <b> creative developer </b>
+                        based in Perth, WA.
+                    </p>
+                    <!-- link is not working -->
+                    <button class="btn-primary">
+                        <href="http://BehnazShojaei.github.io/ConnectForm.html"> Let's Connect</href> <!-- i will add the link to connect form url-->
+                    </button>
+                </div>
+
+                <div>
+                    <img class="banner-photo"
+                        src="./MyPhoto.jpg"
+                        alt="A lady with long hair and glasses" />
+                </div>
+            </div>
+        </section>
+        <!-- bio section -->
+        <section class="bio-container">
+            <div class="bio-heading">
+                <h1>About me.</h1>
+
+            </div>
+            <div class="bio-text">
+                <p>
+                    I am one of the lucky She Coders! I hold MSc in nanoelectronics and BA in biomedical engineering.
+                    With high attention to detail and strong communication skills, I thrive in high performing, customer
+                    driven teams.
+                    My curosity drives me to always seek the "WHY" and uncover the "HOW". I deeply value inclusion and
+                    integrate it into my techinal work, professsional relationships and personal life.
+                </p>
+
+                <button>
+                    <a class="btn-download" href="./Behnaz Shojaei CV .pdf"> View my resume</a>
+                </button>
+            </div>
+        </section>
+        <!-- portfolio I have no idea to use card? grid? will use card with checkered background 3 in a row -->
+        <section>
+            <div class="card" id="column-1">
+                <a href=""> <!-- add the link for the project-->
+                    <h2>Portfolio Website</h2>
+                    <img src=""> <!-- add the image for the project-->
+                </a>
+            </div>
+
+            <div class="card" id="column-2">
+                <a href=""> <!-- add the link for the project should i make it a button?-->
+                    <h2>project title</h2>
+                    <img src=""> <!-- add the image for the project-->
+                </a>
+            </div>
+            <div class="card" id="column-3">
+                <a href=""> <!-- add the link for the project-->
+                    <h2>project title</h2>
+                    <img src=""> <!-- add the image for the project-->
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer include copy right Behnaz, respect traditional owner of land Australia, my socials link  -->
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/behnazshojaei/">
+                <img class="socials-icon" src="./img/linkedin.svg"
+                    alt="The Instagram logo: a rounded square camera with a purple-orange gradient filling the lines" />
+            </a>
+        </div>
+        <div>
+            <a href="https://github.com/BehnazShojaei">
+                <img class="socials-icon" src="./img/github.svg"
+                    alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
+            </a>
+        </div>
+        <div>
+            <p class="small-font">Created by Behnaz Shojaei</p>
+        </div>
+    </footer>
 </body>
 
 </html>
-
