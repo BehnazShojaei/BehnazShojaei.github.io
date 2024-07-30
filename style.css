@@ -1,7 +1,86 @@
+<<<<<<< HEAD
 :root {
     --brand: #a26aa9;
     --brand-alt: purple ;
     --action: #f9ebeb;
     --action-alt: white;
       
+=======
+/* Base HTML Styles */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+    /* --brand: #9FA771; */
+    --brand1: #93c572;
+    --brand2: #484439;
+/* dark green for active button background*/
+    --action: #F0cd05;
+    --action2: #ba846c;
+    --white: #ffffff;
+    --base-light: #ece5f0;
+    --base-dark: #21181d;
+    --black: #111111;
+}
+
+/* CSS Reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: var(--black);
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Rubik", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Utilities */
+
+.display-none {
+    display: none;
+>>>>>>> main
 }

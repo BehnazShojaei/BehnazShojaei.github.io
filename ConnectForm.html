@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Behnaz Shojaei</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <!-- header fixed on both mobile/desktop, hamburger-button for smaller screen, align to left -->
+
+        <div style="position:fixed" class="mobile-header">
+            <img src="./img/logo.png" alt="Behnaz Logo" class="logo">
+            <button type="button" class="hamburger-button">
+                <img class="hamburger-icon" src="./img/hamburger.svg"
+                    alt="Three horizontal lines, positioned one above the other." />
+            </button>
+        </div>
+        <!-- desktop header  -->
+        <nav style="position:fixed" class="desktop-nav" aria-label="Primary">
+            <ul>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- mobile header -->
+        <nav style="position:fixed" class="mobile-nav display-none" aria-label="Primary">
+            <ul>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Get in touch</h2>
+            <!-- form to be edited  -->
+            <form>
+                <label for="your-name">Your Name</label>
+                <input type="text" id="your-name">
+                <label for="city">Your City</label>
+                <select name="city-selection" id="city">
+                    <option value="Brisbane">Brisbane</option>
+                    <option value="Perth">Perth</option>
+                    <option value="Moon">The Moon</option>
+                </select>
+                <label for="message">Your Message</label>
+                <textarea name="message-text" id="message" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/behnazshojaei/">
+            <img class="socials-icon" src="./img/linkedin.svg"
+                alt="The Instagram logo: a rounded square camera with a purple-orange gradient filling the lines" />
+        </a>
+
+        <a href="https://github.com/BehnazShojaei">
+            <img class="socials-icon" src="./img/github.svg"
+                alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
+        </a>
+    </footer>
+</body>
+
+</html>
