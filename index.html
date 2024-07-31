@@ -4,52 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content=" Portfplio Website of Behnaz Shojaei">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Behnaz Shojaei</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico.jpg">
+    <!-- should I add size for favicon  -->
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="icon" type="image/x-icon" href="./favicon.ico.jpg">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <!-- 3 font family selected from google font Lora h2, Work sans h1, noto serif p-->
 </head>
 
 <body>
     <header>
         <!-- header fixed on both mobile/desktop, hamburger-button for smaller screen, align to left -->
 
-        <div class="mobile-header">
+        <div class="header">
             <img src="img/logo.jpg" alt="persian rug symbol" class="logo">
-            <button type="button" class="hamburger-button">
-                <img class="hamburger-icon" src="img/icons8-menu.svg"
-                    alt="Three horizontal lines, positioned one above the other." />
-            </button>
+            <nav role="navigation">
+                <div class="menu-toggle">
+                    <img class="hamburger-icon" src="img/icons8-menu.svg"
+                        alt="Three horizontal lines, positioned one above the other." />
+                    <input type="checkbox" />
+
+                    <ul class="menu">
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>About</li>
+                        </a>
+                        <a href="#">
+                            <li>Portfolio</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <!-- desktop header  -->
-        <nav class="desktop-nav" aria-label="Primary">
-            <ul>
-                <li>
-                    <a href="">HOME</a>
-                </li>
-                <li>
-                    <a href="">PORTFOLIO</a>
-                </li>
-                <li>
-                    <a href="">ABOUT</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- mobile header add this to nav later style="position:fixed" -->
-        <nav class="mobile-nav display-none" aria-label="Primary">
-            <ul>
-                <li>
-                    <a href="">HOME</a>
-                </li>
-                <li>
-                    <a href="">PORTFOLIO</a>
-                </li>
-                <li>
-                    <a href="">ABOUT</a>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <!-- main include 4 sections (banner, bio, portfolio, contact(small photo of me + connect button)) -->
@@ -65,14 +60,14 @@
                         based in Perth, WA.
                     </p>
                     <!-- link is not working -->
-                    <button class="btn-primary">
-                        <href="ConnectForm.html"> Let's Connect</href>
-                            <!-- i will add the link to connect form url-->
-                    </button>
+
+                    <a href="ConnectForm.html"> Let's Connect</a>
+                    <!-- i will add the link to connect form url-->
+
                 </div>
 
                 <div>
-                    <img class="banner-photo" src="img/MyPhoto.jpg" alt="A lady with long hair and glasses" />
+                    <img class="banner-photo" src="./img/MyPhoto.jpg" alt="A lady with long hair and glasses" />
                 </div>
             </div>
         </section>
@@ -124,13 +119,13 @@
     <footer>
         <div>
             <a href="https://www.linkedin.com/in/behnazshojaei/">
-                <img class="socials-icon" src="./img/linkedin.svg"
+                <img class="socials-icon" src="./img/icons8-linkedin.svg"
                     alt="The Instagram logo: a rounded square camera with a purple-orange gradient filling the lines" />
             </a>
         </div>
         <div>
             <a href="https://github.com/BehnazShojaei">
-                <img class="socials-icon" src="./img/github.svg"
+                <img class="socials-icon" src="./img/icons8-github.svg"
                     alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
             </a>
         </div>

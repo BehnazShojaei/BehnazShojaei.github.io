@@ -14,6 +14,7 @@
     --black: #111111;
 }
 
+
 /* CSS Reset */
 
 html {
@@ -74,5 +75,58 @@ select {
 
 .display-none {
     display: none;
+
+}
+
+
+
+/* components */
+
+
+
+/* header */
+.header {
+    padding: 16px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.hamburger-icon {
+    width: 30px;
+
+}
+
+
+
+header button {
+    all: unset;
+}
+
+/* .logo */
+.logo {
+    height: 50px;
+}
+
+.menu-toggle input {
+
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
 
 }
