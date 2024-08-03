@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head includes  ???-->
+<!-- Head section includes meta data and links to stylesheets and icons-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content=" Portfolio Website of Behnaz Shojaei">
+    <!-- description to make it more searchabale!  -->
+    <meta name="description" content="Portfolio Website of Behnaz Shojaei">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Behnaz Shojaei</title>
-   
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/assets/logo.jpg"> 
-    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/assets/logo.jpg"> 
 
+    <!-- Favicon for different formats of file and devices  -->
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/assets/logo.jpg">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/assets/logo.jpg">
 
+    <!-- stylesheets  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- ================check where to put new page opening========== -->
+
+<!-- Main header section include a header container to have better visual on big screen, two div menu-container and socials icon, in menu container we have logo a divider for visual seperation and "menu" as a toggle with a drop down list for mobile display and a nav bar menu items for desktop view -->
 
 <body>
     <header>
         <section class="header-container">
             <div class="menu-container">
                 <div class="logo">
-                    <a href="index.html" >
-                        <img src="./assets/logo.jpg"  alt="persian rug symbol">
+                    <a href="index.html">
+                        <img src="./assets/logo.jpg" alt="persian embroidery symbol">
                     </a>
                 </div>
-              
+
                 <div class="divider"></div>
 
                 <div class="menubar">
                     <input type="checkbox" id="menu-checkbox">
                     <label for="menu-checkbox" class="menu-icon">
-                        <span>Menu</span>
+                        <h3>Menu</h3>
                     </label>
                     <nav role="navigation" class="menu">
                         <ul>
+                            
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#projects">Projects</a></li>
@@ -46,12 +50,11 @@
                 </div>
             </div>
 
-
             <div class="socials">
                 <a href="https://www.linkedin.com/in/behnazshojaei/" target="_blank">
                     <img src="/assets/icons8-linkedin-48.png" alt="linkedin">
 
-                </a> 
+                </a>
 
                 <a href="https://github.com/BehnazShojaei" target="_blank">
                     <img src="/assets/icons8-github-48.png" alt="github">
@@ -59,17 +62,17 @@
                 </a>
 
                 <a href="mailto:behnaz.shojaei88@gmail.com?Subject=Opportunity%20for%20collaboration&body=Hi%20Behnaz,%0D%0A%0D%0AI%20would%20like%20to%20express%20my%20interest%20to%20working%20with%20you%20on"
-                target="_blank">
+                    target="_blank">
                     <img src="/assets/icons8-email-48.png" alt="email">
                 </a>
-              
-
             </div>
-
         </section>
     </header>
 
-    <!-- main include 4 sections (hero, bio, portfolio, contact(small photo of me + connect link to the new page)) -->
+
+
+
+    <!-- main include 4 sections (hero, bio, projects, contact !-->
     <main>
 
         <!-- hero section has 2 divs : intro (include connect button) + img -->
@@ -80,17 +83,19 @@
             </div>
 
             <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Hi, my name is</h1><h1> <i>Behnaz</i>.</h1>
-                    <!-- why behnaz is not bold  -->
-                    <span>
-                        <h2>
-                            I'm a <b> creative developer </b>
-                            based in Perth, WA.
-                        </h2>
-                    </span>
-                </div>
-               
+
+                <h1> Hi, my&NonBreakingSpace;name&NonBreakingSpace;is
+                   <b><i>Behnaz.</i></b>
+                </h1>
+                
+                <span>
+                    <p>
+                        I'm a <b> creative&NonBreakingSpace;developer </b>
+                        based&NonBreakingSpace;in Perth,&NonBreakingSpace;WA.
+                    </p>
+                </span>
+            </div>
+
         </section>
 
 
@@ -120,7 +125,7 @@
         <section class="project-container" id="projects">
             <h2>Projects</h2>
             <div class="card-container">
-                <div class="card" id="column-1">                  
+                <div class="card" id="column-1">
                     <a href="index.html">
                         <h3>Portfolio Website</h3>
                         <img src="assets\logo.jpg"> <!-- add the image for the project-->
@@ -143,21 +148,37 @@
 
         <!-- last container is contact include a round small photo of me and the link to the contact form -->
         <section class="contact-container">
-            
-                <img class="img-contact" src="./assets/MyPhoto.jpg" alt="headshot of Behnaz" />
-          
-                <a
-                    href="contactpage.html" > Contact </a>
-                </a>
-            
+
+            <img class="img-contact" src="./assets/MyPhoto.jpg" alt="headshot of Behnaz" />
+
+            <a href="contactpage.html"> Contact </a>
+            </a>
+
 
         </section>
     </main>
 
     <!-- footer include copy right Behnaz, respect traditional owner of land Australia, my socials link  -->
+    
     <footer>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/behnazshojaei/" target="_blank">
+                <img src="/assets/icons8-linkedin-48.png" alt="linkedin">
 
-        <p class="small-font">Created by Behnaz Shojaei</p>
+            </a>
+
+            <a href="https://github.com/BehnazShojaei" target="_blank">
+                <img src="/assets/icons8-github-48.png" alt="github">
+
+            </a>
+
+            <a href="mailto:behnaz.shojaei88@gmail.com?Subject=Opportunity%20for%20collaboration&body=Hi%20Behnaz,%0D%0A%0D%0AI%20would%20like%20to%20express%20my%20interest%20to%20working%20with%20you%20on"
+                target="_blank">
+                <img src="/assets/icons8-email-48.png" alt="email">
+            </a>
+        </div>
+
+        <p>Created by Behnaz Shojaei</p>
 
     </footer>
 </body>

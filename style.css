@@ -7,7 +7,6 @@
 :root {
     --brand1: #93c572;
     --brand2: #484439;
-    --action: #F0cd05;
     --background-color: #ffff;
     --black: #111111;
 }
@@ -57,20 +56,23 @@ span {
 
 
 a:hover,
+a:focus,
 a:active {
     background-color: transparent;
     font-weight: bold;
     transform: scale(1.1);
+    transition: 0.3s;
 }
 
 
 /* mobile display */
-/* header  */
 
+
+
+/* header mobile*/
 
 h1 {
     font-size: 32px;
-
 }
 
 h2 {
@@ -99,7 +101,6 @@ header {
 }
 
 .header-container {
-    /* background-color: pink; */
     height: 100%;
     width: 100%;
     max-width: 1200px;
@@ -108,7 +109,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    /* box-sizing: border-box; */
 }
 
 .menu-container {
@@ -120,13 +120,11 @@ header {
     left: 0;
     position: relative;
 
-    /* text-align: center; */
 }
 
 .logo img {
     height: 70px;
     width: auto;
-    /* position:fixed; */
 }
 
 .divider {
@@ -141,42 +139,28 @@ header {
 }
 
 .menu-icon {
-
     cursor: pointer;
     color: var(--brand1);
-    font-weight: bold;
+    font-weight: bolder;
     width: 100%;
-    /* position: fixed; */
     z-index: 1000;
-    /* user-select: none; */
-    transform: scale(1.1);
 }
 
-/* .menu-icon .span {
-    background-color: transparent;
-    font-weight: bold;
-    transform: scale(1.1);
-} */
 
-/* menu.icon a:hover,
-a:active {
-    background-color: transparent;
-    font-weight: bold;
-    transform: scale(1.1);
-} */
+.menu-icon h3 {
+    margin: 10px;
+    color: var(--brand1);
+}
 
 .menu {
     display: none;
-
     position: absolute;
     top: 80px;
     left: 0;
-    text-align: center;
-
+    text-align: left;
     width: 100vw;
     height: 100vh;
     background-color: var(--background-color);
-
 }
 
 
@@ -188,55 +172,39 @@ a:active {
 .menu ul li {
 
     padding: 10px 30px;
-    border-bottom: 1px solid var(--brand2);
-
+    border-bottom: 3px solid var(--brand2);
+    text-align: left;
 }
 
 .menu ul li:last-child {
     border-bottom: none;
+
 }
 
 .menu ul li a {
-    text-decoration: none;
-    color: var(--brand2);
 
+    /* text-decoration: none; */
+    color: var(--brand2);
 }
+
 
 
 #menu-checkbox:checked+.menu-icon+nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    width: 100vw;
-
-
+    align-items: baseline;
+    margin-left: 80px;
+    height: 200px;
 }
-
-
 
 .socials {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-    gap: 10px;
-    padding: 40px;
-    height: 80px;
-    width: auto;
-    height: 80px;
-
+    display: none;
 }
-
-
 
 /* section hero mobile */
 
-
-
 .hero-container {
-    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,9 +212,7 @@ a:active {
     margin: 0 auto;
     width: 80%;
     margin-bottom: 20px;
-    /* flex-wrap: wrap; */
-    /* ========================wrap???============ */
-    /* /* padding 0 50px; */
+
 }
 
 .hero-content {
@@ -255,9 +221,6 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* ===================shrink grow for img=================== */
-    /* flex: 1 2 100px; */
-    /* flex: 3; */
     width: 90%;
     padding: 0 50px;
     margin: 0 auto;
@@ -265,15 +228,12 @@ a:active {
 
 }
 
-
 .headshot {
     width: 150px;
     border-radius: 50%;
     height: auto;
+    flex: 1 1 auto;
 }
-
-
-
 
 /* Bio-section mobile */
 
@@ -302,8 +262,6 @@ a:active {
     line-height: 1.5rem;
 }
 
-
-
 .link-CV {
     display: inline-block;
     margin-top: 20px;
@@ -322,7 +280,6 @@ a:active {
 
 /* project mobile display*/
 .project-container {
-    /* background-color: blue; */
     margin: 0;
     padding: 20px;
     display: flex;
@@ -348,15 +305,12 @@ a:active {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
     width: 100%;
     margin: 0 auto;
     height: auto;
 }
 
 .card {
-    /* border: 2px solid purple; */
-
     background-color: var(--brand1);
     display: flex;
     flex-direction: column;
@@ -367,7 +321,6 @@ a:active {
     margin: 1%;
     padding: 1rem;
     border-radius: 10px;
-
 }
 
 .card h3 {
@@ -376,7 +329,6 @@ a:active {
 }
 
 .card img {
-    
     width: 100%;
     height: auto;
     padding-bottom: 20px;
@@ -421,7 +373,7 @@ a:active {
     font-weight: bold;
 }
 
-/* Form  */
+/* Form in new page */
 
 form {
     text-align: center;
@@ -438,6 +390,39 @@ form {
 
 }
 
+/* footer mobile display */
+
+footer {
+    background-color: var(--brand1);
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+    padding: 40px;
+    height: 80px;
+    width: auto;
+    height: 80px;
+
+}
+
+
+p {
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+
+
 /* =================== */
 
 /* .contact-form */
@@ -445,12 +430,9 @@ form {
 .contact-form {
     text-align: left;
     padding: 48px 16px;
-
-
     border-radius: 10px;
     margin: 0 auto;
     width: 100%;
-
 }
 
 label {
@@ -475,7 +457,6 @@ label {
     padding: 8px;
     border-radius: 10px;
     border: 1.5px solid var(--brand2);
-
 }
 
 .contact-form label {
@@ -496,26 +477,6 @@ label {
     cursor: pointer;
 }
 
-
-/* footer mobile display */
-
-footer {
-    background-color: var(--brand1);
-    padding: 20px 0;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-p {
-    margin: 0;
-}
-
-
-
-
-/* desktop display */
 
 @media only screen and (min-width: 768px) {
 
@@ -546,7 +507,6 @@ p {
     .menu-icon {
         display: none;
     }
-
 
 
     .menu {
@@ -580,9 +540,23 @@ p {
     .menu ul li a {
         color: var(--brand1);
         font-weight: bold;
-        transition: 0.3s;
     }
 
+
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        gap: 10px;
+        padding: 40px;
+        height: 80px;
+        width: auto;
+        height: 80px;
+
+    }
 
 
     /* section hero desktop  */
@@ -590,16 +564,10 @@ p {
 
     .hero-container {
 
-        /* check the header section bottom margin to be 20px */
-        /* try to make my image as background of the section  */
-        /* background-color: blue; */
-        /* for demo  */
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        /* flex-wrap: wrap; */
-        /* ========================wrap???============ */
     }
 
     .hero-content {
@@ -607,7 +575,7 @@ p {
     }
 
     .hero-content h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .hero-content h2 {
@@ -616,28 +584,17 @@ p {
 
 
     .headshot {
-        /* flex : 4; */
-        /* flex: 0 2 100px; */
-        /* width: 100%; */
-        /* backface-visibility: hidden; */
         border-radius: 20%;
         width: 80%;
         padding: 1%;
-        /* display:flex;
-    justify-content: center;
-     */
-
-
     }
 
     .mailto a {
         font-size: 20px;
         border: 4px solid var(--brand2);
-        /* border-radius: 20%; */
     }
 
     .mailto a:hover {
-        /* background-color: var(--brand1); */
         border: 4px solid var(--brand1);
     }
 
@@ -693,30 +650,28 @@ p {
         flex: 0 1 auto;
         width: 30%;
         height: auto;
-        /* I stuck to make the size of empty card on big desktop view identical  */
         padding: 1 rem;
         margin: 1%;
         padding: 0.5rem 1rem;
-
-        /* box-sizing: border-box; */
-
     }
 
 
 
     .card img {
-
         width: 100%;
         height: 200px;
         /* flex: 1 1 calc(100/3 - 
         2rem); */
-
-
     }
 
     footer {
         padding: 10px 0;
         font-size: 14px;
     }
+
+    footer .socials {
+        display: none;
+    }
+
 
 }
