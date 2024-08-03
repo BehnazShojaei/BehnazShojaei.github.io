@@ -1,132 +1,721 @@
 /* Base HTML Styles */
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* <!-- 3 font family selected from google font Lora h2, Work sans h1, noto serif p--> */
 
 :root {
-    /* --brand: #9FA771; */
     --brand1: #93c572;
     --brand2: #484439;
-    /* dark green for active button background*/
     --action: #F0cd05;
-    --action2: #ba846c;
-    --white: #ffffff;
-    --base-light: #ece5f0;
-    --base-dark: #21181d;
+    --background-color: #ffff;
     --black: #111111;
 }
 
-
-/* CSS Reset */
+/* Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    color: var(--black);
     scroll-behavior: smooth;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Rubik", sans-serif;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
+body {
+    font-family: 'work sans', sans-serif;
+    background-color: var(--background-color);
+    color: #111111;
     margin: 0;
-    padding: 0;
+    line-height: 1.6;
 }
 
-ol,
-ul {
-    list-style: none;
+a {
+    color: var(--brand2);
+    text-decoration: none;
 }
 
 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
+    display: block;
 }
 
-input,
-button,
-textarea,
-select {
-    font: inherit;
+h1,
+h2,
+h3 {
+    font-family: 'Lora', sans-serif;
+    color: var(--black);
 }
 
-/* Utilities */
-
-.display-none {
-    display: none;
-
+p,
+a,
+span {
+    font-family: 'Noto Serif', sans-serif;
 }
 
 
+a:hover,
+a:active {
+    background-color: transparent;
+    font-weight: bold;
+    transform: scale(1.1);
+}
 
-/* components */
+
+/* mobile display */
+/* header  */
 
 
+h1 {
+    font-size: 32px;
 
-/* header */
-.header {
-    padding: 16px;
-    border: 1px solid red;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    font-size: 14px;
+}
+
+span {
+    font-size: 14px;
+}
+
+/* mobile  */
+header {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-container {
+    /* background-color: pink; */
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* box-sizing: border-box; */
+}
+
+.menu-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    height: auto;
+    left: 0;
+    position: relative;
 
-
+    /* text-align: center; */
 }
 
-.hamburger-icon {
-    width: 30px;
-
+.logo img {
+    height: 70px;
+    width: auto;
+    /* position:fixed; */
 }
 
-
-
-header button {
-    all: unset;
+.divider {
+    height: 30px;
+    width: 2px;
+    background-color: var(--brand2);
+    margin: 0 10px;
 }
 
-/* .logo */
-.logo {
-    height: 50px;
+#menu-checkbox {
+    display: none;
 }
 
-.menu-toggle input {
-
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
+.menu-icon {
 
     cursor: pointer;
+    color: var(--brand1);
+    font-weight: bold;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 1000;
+    /* user-select: none; */
+    transform: scale(1.1);
+}
 
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
+/* .menu-icon .span {
+    background-color: transparent;
+    font-weight: bold;
+    transform: scale(1.1);
+} */
 
-    -webkit-touch-callout: none;
+/* menu.icon a:hover,
+a:active {
+    background-color: transparent;
+    font-weight: bold;
+    transform: scale(1.1);
+} */
+
+.menu {
+    display: none;
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+    text-align: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+
+}
+
+
+/*remove the bullet points*/
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+
+    padding: 10px 30px;
+    border-bottom: 1px solid var(--brand2);
+
+}
+
+.menu ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--brand2);
+
+}
+
+
+#menu-checkbox:checked+.menu-icon+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+
+
+}
+
+
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+    padding: 40px;
+    height: 80px;
+    width: auto;
+    height: 80px;
+
+}
+
+
+
+/* section hero mobile */
+
+
+
+.hero-container {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+    /* flex-wrap: wrap; */
+    /* ========================wrap???============ */
+    /* /* padding 0 50px; */
+}
+
+.hero-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* ===================shrink grow for img=================== */
+    /* flex: 1 2 100px; */
+    /* flex: 3; */
+    width: 90%;
+    padding: 0 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+
+.headshot {
+    width: 150px;
+    border-radius: 50%;
+    height: auto;
+}
+
+
+
+
+/* Bio-section mobile */
+
+.bio-container {
+    background-color: var(--brand1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0 0, 0, 0.1);
+    /* can i add the box shadow as my brand2 ============ */
+    margin-bottom: 20px;
+}
+
+.bio-heading {
+    padding: 10px 0;
+    /* default font size mobile */
+}
+
+.bio-content {
+    padding: 10px 0;
+    line-height: 1.5rem;
+}
+
+
+
+.link-CV {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: var(brand2);
+    font-weight: bold;
+    border: 2px solid var(--brand2);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.link-CV:hover {
+    background-color: var(--brand1);
+    border: 5px solid var(--brand1);
+}
+
+/* project mobile display*/
+.project-container {
+    /* background-color: blue; */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 10px solid brand-2;
+    margin-bottom: 20px;
+}
+
+.project-container h2 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    flex: 1 1 auto;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.card {
+    /* border: 2px solid purple; */
+
+    background-color: var(--brand1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 1%;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.card h3 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card img {
+    
+    width: 100%;
+    height: auto;
+}
+
+/* contact-container mobile display */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.contact-container img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 100%;
+    padding: 20px 0;
+
+}
+
+.contact-container a {
+
+    display: inline-block;
+    margin-top: 5%;
+    padding: 5%;
+    color: var(brand2);
+    text-align: center;
+    border: 3px solid var(--brand2);
+    border-radius: 12px;
+    transition: 0.3s;
+
+}
+
+.contact-container a:hover {
+
+    background-color: var(--brand1);
+    border: 5px solid var(--brand1);
+    font-weight: bold;
+}
+
+/* Form  */
+
+form {
+    text-align: center;
+}
+
+.form-container {
+    font-size: 1rem;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+
+}
+
+/* =================== */
+
+/* .contact-form */
+
+.contact-form {
+    text-align: left;
+    padding: 48px 16px;
+
+
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+label {
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    border: 1.5px solid var(--brand2);
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1.5px solid var(--brand2);
+
+}
+
+.contact-form label {
+    display: block;
+    width: auto;
+}
+
+.contact-form h2 {
+    color: var(--brand2);
+    margin-bottom: 16px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: var(--brand1);
+    border: 0;
+    border-radius: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+/* footer mobile display */
+
+footer {
+    background-color: var(--brand1);
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+
+/* desktop display */
+
+@media only screen and (min-width: 768px) {
+
+
+    h1 {
+        font-size: 40px;
+
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    span {
+        font-size: 18px;
+    }
+
+    /* Header desktop */
+
+    .menu-icon {
+        display: none;
+    }
+
+
+
+    .menu {
+
+        display: flex;
+        flex-direction: row;
+        background: none;
+        border: none;
+        width: 5px;
+        height: auto;
+        position: relative;
+        top: 0;
+        margin: 0 auto;
+        font-weight: bold;
+        font-style: var(--brand1);
+
+    }
+
+    .menu ul {
+        display: flex;
+
+    }
+
+    .menu ul li {
+
+        padding: 0 20px;
+        border-bottom: none;
+
+    }
+
+    .menu ul li a {
+        color: var(--brand1);
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+
+
+    /* section hero desktop  */
+
+
+    .hero-container {
+
+        /* check the header section bottom margin to be 20px */
+        /* try to make my image as background of the section  */
+        /* background-color: blue; */
+        /* for demo  */
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* ========================wrap???============ */
+    }
+
+    .hero-content {
+        align-items: flex-start;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+    }
+
+    .hero-content h2 {
+        font-size: 25px;
+    }
+
+
+    .headshot {
+        /* flex : 4; */
+        /* flex: 0 2 100px; */
+        /* width: 100%; */
+        /* backface-visibility: hidden; */
+        border-radius: 20%;
+        width: 80%;
+        padding: 1%;
+        /* display:flex;
+    justify-content: center;
+     */
+
+
+    }
+
+    .mailto a {
+        font-size: 20px;
+        border: 4px solid var(--brand2);
+        /* border-radius: 20%; */
+    }
+
+    .mailto a:hover {
+        /* background-color: var(--brand1); */
+        border: 4px solid var(--brand1);
+    }
+
+    /* bio section desktop  */
+
+    .bio-container p {
+        line-height: 2;
+    }
+
+    .bio-container {
+        align-items: flex-start;
+
+    }
+
+    .bio-container :last-child {
+        align-self: flex-end;
+    }
+
+    .link-CV {
+
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        color: var(brand2);
+        height: auto;
+        border: 3px solid var(--brand2);
+        transition: 0.3s;
+    }
+
+    /* Project desktop display  */
+
+    .card-container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+        flex: 1 1 calc(auto);
+    }
+
+    .project-container h2 {
+        margin: 0;
+        /* Aligns text to the left */
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex: 0 1 auto;
+        width: 30%;
+        height: auto;
+        /* I stuck to make the size of empty card on big desktop view identical  */
+        padding: 1 rem;
+        margin: 1%;
+        padding: 0.5rem 1rem;
+
+        /* box-sizing: border-box; */
+
+    }
+
+
+
+    .card img {
+
+        width: 100%;
+        height: 200px;
+        /* flex: 1 1 calc(100/3 - 
+        2rem); */
+
+
+    }
+
+    footer {
+        padding: 10px 0;
+        font-size: 14px;
+    }
 
 }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head includes  ???-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content=" Portfolio Website of Behnaz Shojaei">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Behnaz Shojaei</title>
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/assets/logo.jpg"> 
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/assets/logo.jpg"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+    <header>
+        <section class="header-container">
+            <div class="menu-container">
+                <div class="logo">
+                    <a href="index.html" >
+                        <img src="./assets/logo.jpg"  alt="persian rug symbol">
+                    </a>
+                </div>
+              
+                <div class="divider"></div>
+
+                <div class="menubar">
+                    <input type="checkbox" id="menu-checkbox">
+                    <label for="menu-checkbox" class="menu-icon">
+                        <span>Menu</span>
+                    </label>
+                    <nav role="navigation" class="menu">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/behnazshojaei/" target="_blank">
+                    <img src="/assets/icons8-linkedin-48.png" alt="linkedin">
+
+                </a> 
+
+                <a href="https://github.com/BehnazShojaei" target="_blank">
+                    <img src="/assets/icons8-github-48.png" alt="github">
+
+                </a>
+
+                <a href="mailto:behnaz.shojaei88@gmail.com?Subject=Opportunity%20for%20collaboration&body=Hi%20Behnaz,%0D%0A%0D%0AI%20would%20like%20to%20express%20my%20interest%20to%20working%20with%20you%20on"
+                target="_blank">
+                    <img src="/assets/icons8-email-48.png" alt="email">
+                </a>
+              
+
+            </div>
+
+        </section>
+    </header>
+
+
+
+
+
+
+    <!-- ================form========== -->
+
+    <section class="contact-form">
+        <h2>Get in touch!</h2>
+        <form action="https://formspree.io/f/mgvwkpqn"
+        method="POST">
+            <label for="your-name">Your Name</label>
+            <input type="text" id="your-name">
+            <label for="city">Your Query</label>
+            <select name="city-selection" id="city">
+                <option value="Web-Design">Web Design</option>
+                <option value="Data-Analysis">Data Analysis</option>
+                <option value="General">General</option>
+            </select>
+            <label for="message">Your Message</label>
+            <textarea name="message-text" id="message" rows="10"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+
+    <!-- Header  -->
+
+    <footer>
+
+        <p class="small-font">Created by Behnaz Shojaei</p>
+
+    </footer>
+</body>
