@@ -1,6 +1,6 @@
 #  Behnaz - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site](https://behnazshojaei.github.io/)
 ​
 ## Project Requirements
 
@@ -14,7 +14,7 @@
 
 I included profile picture of myself made the background match my website background and have a dress on my brand2 color, for visual persons who remember the face better than names I put a rounded small photo of myself in contact section at the end of page. 
 In about section you can read about my background, my approach and values, and also can download my cv.
-The contact form is fully functional allowing visitors to reach out directly, form has curvy edges and is in my brand2 color. 
+The contact form in second webpage is fully functional allowing visitors to reach out directly, form has curvy edges and is in my brand2 color. 
 The project section has an allocated card in brand1 color for each project showcasing the title and a logo/image of the project. In mobile view the cards will be displayed in a column and in desktop size project section cards will be in rows of three. 
 I have included links to my Github and LinkedIn profile and mailto icon will open in user preferred mailbox with a default subject and greeting content.
 I keep the flow with using my brand1(#93c572), brand2(#484439), black and white in crisscross or alternating pattern where applicable. 
@@ -33,7 +33,7 @@ I designed a logo in my brand colours and inspired by a Persian embroidery patte
 In contact section a new web page will appear with the form on it. 
 I used Git to manage and track changes. I worked on develop branch and keep record of codebase.
 I ran add/commit with related comments/push on develop branch and deploy the final code on my main branch.
-The website designed for mobile view first and with media queries adjustment applied for bigger size displays. The font on hero section is responsive in different displays. Pointing to logo will bring you to home page. Nav bar menu is interactive and navigate you to the right section. In mobile view nav bar will be shown as a drop down menu by pointing menu icon using checkbox, input, label. The socials icons will be in footer for mobile display and in header for bigger displays.
+The website designed for mobile view first and with media queries adjustment applied for bigger size displays. The font on hero section is responsive in different displays. Pointing to logo will bring you to home page. Nav bar menu is interactive and navigate you to the right section. In mobile view nav bar will be shown as a drop down menu by pointing menu icon used checkbox, input, label. The socials icons will be in footer for mobile display and in header for bigger displays. 
 I used meaningful, related names, tags, labels, Alt text for all elements to help search engines and screen reader understand the content and structure. 
 
       
@@ -55,21 +55,15 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 
 ####  image_title_goes_here 
 
-(1432px-[a-d])
-(932px-[a-g])
-responsive here [1-3]
-action[1-4]
-
-my code includes: header, hero, bio, projects, contact section navigate to form in new page, footer
-
-
-
 ![
-The portfolio on screen size 1423px, (1432px-[a-d]),
-932px (932px-[a-g]) and 466px (466px-[a-g]).
+image-titles-group:
+action : 4 SS (screen shot) - 1 to 4 ( shows navigation buttons in action )
+small-display : 5 SS - a to e
+medium-display : 7 SS - a to g
+large-display: 4 SS - a to d 
+wireframe : desktop & mobile view
+responsive here: 1 to 3 ]
 
-check the responsiveness on displays: responsive hero [1-3]
-
-check the hover over action on : action[1-4] ](https://github.com/BehnazShojaei/BehnazShojaei.github.io/tree/main/snaps-portfolio-website)
-(snaps-portfolio-website)
+(https://github.com/BehnazShojaei/BehnazShojaei.github.io/tree/main/screenshot-website-pages)
+(screenshot-website-pages)
 
