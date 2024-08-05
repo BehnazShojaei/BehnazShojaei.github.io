@@ -235,6 +235,10 @@ header {
     flex: 1 1 auto;
 }
 
+.scroll-down {
+    display: none;
+}
+
 /* Bio-section mobile */
 
 .bio-container {
@@ -589,14 +593,11 @@ label {
         padding: 1%;
     }
 
-    .mailto a {
-        font-size: 20px;
-        border: 4px solid var(--brand2);
-    }
 
-    .mailto a:hover {
-        border: 4px solid var(--brand1);
-    }
+    .scroll-down {
+        display: inline-block;
+       margin-top: 480px;
+     }
 
     /* bio section desktop  */
 
