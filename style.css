@@ -6,14 +6,9 @@
 
 :root {
     --brand1: #93c572;
-    /* --brand1: #3A5B25; */
-    /* --brand1: #3E5A26; */
     --brand2: #484439;
-
     --background-color: #ffff; */
-    /* --black: #111111;
-    /* --background-color: #11111; */
-    * --black: #ffff; */
+    --black: #ffff; */
 }
 
 /* Reset  */
@@ -253,7 +248,6 @@ header {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(0 0, 0, 0.1);
-    /* can i add the box shadow as my brand2 ============ */
     margin-bottom: 20px;
 }
 
