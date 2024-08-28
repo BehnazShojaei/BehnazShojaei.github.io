@@ -49,11 +49,11 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 
 
 ####  screenshot-wireframes:
-####  1.screenshot-wireframes-desktop-view
+####  1. wireframes-desktop view
 
-![first screenshot | wireframe desktop view](screenshot-website-pages\wireframe-desktop-view.jpg)
-####  2.screenshot-wireframes-mobile-view
-![Second screenshot | wireframe mobile view](screenshot-website-pages\wireframe-mobile-view.jpg)
+![first screenshot | wireframe desktop view](screenshot-website-pages/wireframe-desktop-view.jpg)
+####  2.wireframes-mobile view
+![Second screenshot | wireframe mobile view](screenshot-website-pages/wireframe-mobile-view.jpg)
 
 
 ####  screenshot-large-display-1423px
