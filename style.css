@@ -613,9 +613,6 @@ label {
         padding: 1%;
     }
 
-
-
-
     */
     /* bio section desktop  */
 
@@ -625,6 +622,11 @@ label {
 
     .bio-container :last-child {
         align-self: flex-end;
+    }
+    
+    .bio-heading {
+        margin: 0;
+        align-self: flex-start;
     }
 
     .link-CV {
@@ -653,7 +655,6 @@ label {
     .project-container h2 {
         margin: 0;
     }
-
 
 
     .card {
