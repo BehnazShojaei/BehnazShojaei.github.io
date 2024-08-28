@@ -48,12 +48,12 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 
 
 
-####  screenshot-wireframes
+####  screenshot-wireframes:
+####  1.screenshot-wireframes-desktop-view
 
-![first screenshot | wireframe desktop view](screenshot-website-pages/wireframe desktop view.jpg)
-
-![Second screenshot | wireframe mobile view] 
-(screenshot-website-pages/wireframe mobile view.jpg)
+![first screenshot | wireframe desktop view](screenshot-website-pages\wireframe-desktop-view.jpg)
+####  2.screenshot-wireframes-mobile-view
+![Second screenshot | wireframe mobile view](screenshot-website-pages\wireframe-mobile-view.jpg)
 
 
 ####  screenshot-large-display-1423px
@@ -98,8 +98,7 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 
 ![first screenshot | view my resume button normal mode](screenshot-website-pages/action1.png)
 
-![Second screenshot | view my resume button action mode] 
-(screenshot-website-pages/action2.png)
+![Second screenshot | view my resume button action mode](screenshot-website-pages/action2.png)
 
 ![Third screenshot | contact button normal mode](screenshot-website-pages/action3.png)
 
