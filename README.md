@@ -47,38 +47,38 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 
 ###  Screenshots
 1. [Screenshot - Wireframes](#1-screenshot---wireframes)
- ( [Wireframes - Desktop View](#1-1--wireframes---desktop-view) | [Wireframes - Desktop View](#1-2--wireframes---mobile-view))
+ ( [ Desktop View ](#1-1--wireframes---desktop-view) | [Desktop View](#1-2--wireframes---mobile-view))
 
-2. [Screenshot - Large display](#2--screenshot---large-display---1423px)
+2. [ Large display ](#2--screenshot---large-display---1423px)
 
-( [Large display - Header and Hero Section](#2-1--header-and-hero-section)
- | [Large display - Bio Section](#2-2--bio-section)
- | [Large display - Projects Section](#2-3--projects-section)
- | [Large display - Contact and Footer Section](#2-4--contact-and-footer-section))
+( [ Header and Hero Section](#2-1--header-and-hero-section)
+ | [ Bio Section ](#2-2--bio-section)
+ | [ Projects Section ](#2-3--projects-section)
+ | [ Contact and Footer Section ](#2-4--contact-and-footer-section))
 
 3. [Screenshot - Medium display](#3--screenshot---medium-display---932px)
 
-( [Medium display - Header and Hero Section](#3-1-header-and-hero-section)
- | [Medium display - Hero Section](#3-2-hero-section)
- | [Medium display - Bio Section](#3-3-bio-section)
- | [Medium display - Bio and Projects Section](#3-4-bio-and-projects-section)
- | [Medium display - Project Section](#3-5-projects-section)
- | [Medium display - Contact Section](#3-6-contact-section)
- | [Medium display - Contact and Footer Section](#3-7-contact-and-footer-section))
+( [ Header and Hero Section ](#3-1-header-and-hero-section)
+ | [ Hero Section ](#3-2-hero-section)
+ | [ Bio Section ](#3-3-bio-section)
+ | [ Bio and Projects Section ](#3-4-bio-and-projects-section)
+ | [ Project Section ](#3-5-projects-section)
+ | [ Contact Section ](#3-6-contact-section)
+ | [ Contact and Footer Section ](#3-7-contact-and-footer-section))
 
 4. [Screenshot - Small display](#4--screenshot---small-display---466px)
 
-( [Small display - Header and Hero Section](#4-1-header-hero-and-bio-section)
- | [Small display - Bio and Projects Section](#4-2-bio-and-projects-section)
- | [Small display - Projects Section](#4-3-projects-section)
- | [Small display - Projects and Contact Section](#4-4-projects-and-contact-section)
- | [Small display - Project, contact and Footer Section](#4-5-projects-contact-and-footer-section))
+( [ Header and Hero Section](#4-1-header-hero-and-bio-section)
+ | [ Bio and Projects Section](#4-2-bio-and-projects-section)
+ | [ Projects Section](#4-3-projects-section)
+ | [ Projects and Contact Section](#4-4-projects-and-contact-section)
+ | [ Project, contact and Footer Section](#4-5-projects-contact-and-footer-section))
  
-5. [Screenshot - action navigation buttons](#5--screenshot---action-navigation-buttons)
-( [Action - first button normal mode](#5-1-view-my-resume-button-normal-mode)
- | [Action - first button action mode](#5-2-view-my-resume-button-action-mode)
- | [Action - second button normal mode](#5-3-contact-button-normal-mode)
- | [Action - first button action mode](#5-4-contact-button-action-mode))
+5. [Screenshot - Action Navigation Buttons](#5--screenshot---action-navigation-buttons)
+( [ First Button Normal Mode ](#5-1-view-my-resume-button-normal-mode)
+ | [ First Button Action Mode ](#5-2-view-my-resume-button-action-mode)
+ | [ Second Button Normal Mode ](#5-3-contact-button-normal-mode)
+ | [ Second Button Action Mode ](#5-4-contact-button-action-mode))
 
 ####  1- Screenshot - Wireframes:
 
