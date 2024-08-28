@@ -46,27 +46,63 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 ​I have all my social icons, buttons to download resume or navigating to next page interactive. They will scale up once hover over or will have different border and background colour where applicable.
 
 
-### Screenshots
-> Please include the following:
-> - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
-> - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
-> 
-> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####  image_title_goes_here 
 
-![
-image-titles-group:
-action : 4 SS (screen shot) - 1 to 4 ( shows navigation buttons in action )
-small-display : 5 SS - a to e
-medium-display : 7 SS - a to g
-large-display: 4 SS - a to d 
-wireframe : desktop & mobile view
-responsive here: 1 to 3 ]
+####  screenshot-wireframes
 
-(https://github.com/BehnazShojaei/BehnazShojaei.github.io/tree/main/screenshot-website-pages)
-<<<<<<< HEAD
-=======
-(screenshot-website-pages)
+![first screenshot | wireframe desktop view] (screenshot-website-pages\wireframe desktop view.jpg)
 
->>>>>>> 7c396bf75a1922d7245cb9463a7526b977b38d56
+![Second screenshot | wireframe mobile view] 
+(screenshot-website-pages\wireframe mobile view.jpg)
+
+
+####  screenshot-large-display-1423px
+
+![first screenshot | header + hero section] (screenshot-website-pages\large-display-1423px-a-header-hero.png)
+
+![Second screenshot | bio section] (screenshot-website-pages\large-display-1423px-b-bio.png)
+
+![Third screenshot | projects section] (screenshot-website-pages\large-display-1423px-c-projects.png)
+
+![Fourth screenshot | contact + footer section] (screenshot-website-pages\large-display-1423px-d-contact-footer.png)
+
+####  screenshot-medium-display-932px
+
+![first screenshot | header + hero section] (screenshot-website-pages\medium-display-932px-a-header-hero.png)
+
+![Second screenshot | hero section] (screenshot-website-pages\medium-display-932px-b-hero.png)
+
+![Third screenshot | bio section] (screenshot-website-pages\medium-display-932px-c-bio.png)
+
+![Fourth screenshot | bio + projects section] (screenshot-website-pages\medium-display-932px-d-bio-project.png)
+
+![Fifth screenshot | projects section] (screenshot-website-pages\medium-display-932px-e-projects.png)
+
+![Sixth screenshot | contact section] (screenshot-website-pages\medium-display-932px-f-contact.png)
+
+![Seventh screenshot | contact + footer section] (screenshot-website-pages\medium-display-932px-g-contact-footer.png)
+
+####  screenshot-small-display-466px
+
+![first screenshot | header + hero + bio section] (screenshot-website-pages\small-display-466px-a-header-hero-bio.png)
+
+![Second screenshot | bio + project section] (screenshot-website-pages\small-display-466px-b-bio-projects.png)
+
+![Third screenshot | projects section] (screenshot-website-pages\small-display-466px-c-projects.png)
+
+![Fourth screenshot | projects + contact section] (screenshot-website-pages\small-display-466px-d-projects-contact.png)
+
+![Fifth screenshot | projects + contact + footer section] (screenshot-website-pages\small-display-466px-e-project-contact-footer.png)
+
+####  screenshot-action-navigation-buttons
+
+![first screenshot | view my resume button normal mode] (screenshot-website-pages\action1.png)
+
+![Second screenshot | view my resume button action mode] 
+(screenshot-website-pages\action2.png)
+
+![Third screenshot | contact button normal mode] (screenshot-website-pages\action3.png)
+
+![Fourth screenshot | contact button action mode] (screenshot-website-pages\action4.png)
+
+
