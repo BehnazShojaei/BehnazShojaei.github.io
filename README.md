@@ -50,80 +50,130 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
  ( [Wireframes - Desktop View](#1-1--wireframes---desktop-view) | [Wireframes - Desktop View](#1-2--wireframes---mobile-view))
 
 2. [Screenshot - Large display](#2--screenshot---large-display---1423px)
- 2.1 [Large display - Header and Hero Section](#2-1--header-and-hero-section)
- 2.2 [Large display - Bio Section](#2-2--bio-section)
- 2.3 [Large display - Projects Section](#2-3--projects-section)
- 2.4 [Large display - Contact and Footer Section](#2-4--contact-and-footer-section)
 
-3. [Screenshot - Medium display](Medium display---Medium display)
-4. [Screenshot - small display](small display---small display)
-5. [Screenshot - action navigation buttons](action navigation buttons---action navigation buttons)
+( [Large display - Header and Hero Section](#2-1--header-and-hero-section)
+ | [Large display - Bio Section](#2-2--bio-section)
+ | [Large display - Projects Section](#2-3--projects-section)
+ | [Large display - Contact and Footer Section](#2-4--contact-and-footer-section))
+
+3. [Screenshot - Medium display](#3--screenshot---medium-display---932px)
+
+( [Medium display - Header and Hero Section](#3-1-header-and-hero-section)
+ | [Medium display - Hero Section](#3-2-hero-section)
+ | [Medium display - Bio Section](#3-3-bio-section)
+ | [Medium display - Bio and Projects Section](#3-4-bio-and-projects-section)
+ | [Medium display - Project Section](#3-5-projects-section)
+ | [Medium display - Contact Section](#3-6-contact-section)
+ | [Medium display - Contact and Footer Section](#3-7-contact-and-footer-section))
+
+4. [Screenshot - Small display](#4--screenshot---small-display---466px)
+
+( [Small display - Header and Hero Section](#4-1-header-hero-and-bio-section)
+ | [Small display - Bio and Projects Section](#4-2-bio-and-projects-section)
+ | [Small display - Projects Section](#4-3-projects-section)
+ | [Small display - Projects and Contact Section](#4-4-projects-and-contact-section)
+ | [Small display - Project, contact and Footer Section](#4-5-projects-contact-and-footer-section))
+ 
+5. [Screenshot - action navigation buttons](#5--screenshot---action-navigation-buttons)
+( [Action - first button normal mode](#5-1-view-my-resume-button-normal-mode)
+ | [Action - first button action mode](#5-2-view-my-resume-button-action-mode)
+ | [Action - second button normal mode](#5-3-contact-button-normal-mode)
+ | [Action - first button action mode](#5-4-contact-button-action-mode))
 
 ####  1- Screenshot - Wireframes:
 
-#####  1-1- Wireframes - Desktop View
+#####  1-1 Wireframes - Desktop View
 
 ![first screenshot | wireframe desktop view](screenshot-website-pages/wireframe-desktop-view.jpg)
 
-#####  1-2- Wireframes - Mobile View
+#####  1-2 Wireframes - Mobile View
 
 ![Second screenshot | wireframe mobile view](screenshot-website-pages/wireframe-mobile-view.jpg)
 
 ####  2- Screenshot - Large Display - 1423px:
 
-#####  2-1- Header and Hero Section
+#####  2-1 Header and Hero Section
 
 ![first screenshot | header + hero section](screenshot-website-pages/large-display-1423px-a-header-hero.png)
 
-#####  2-2- Bio Section
+#####  2-2 Bio Section
 
 ![Second screenshot | bio section](screenshot-website-pages/large-display-1423px-b-bio.png)
 
-#####  2-3- Projects Section
+#####  2-3 Projects Section
 
 ![Third screenshot | projects section](screenshot-website-pages/large-display-1423px-c-projects.png)
 
-#####  2-4- Contact and Footer Section
+#####  2-4 Contact and Footer Section
 
 ![Fourth screenshot | contact + footer section](screenshot-website-pages/large-display-1423px-d-contact-footer.png)
 
+
 ####  3- Screenshot - Medium Display - 932px:
 
-
+#####  3-1 Header and Hero Section
 
 ![first screenshot | header + hero section](screenshot-website-pages/medium-display-932px-a-header-hero.png)
 
+#####  3-2 Hero Section
+
 ![Second screenshot | hero section](screenshot-website-pages/medium-display-932px-b-hero.png)
+
+#####  3-3 Bio Section
 
 ![Third screenshot | bio section](screenshot-website-pages/medium-display-932px-c-bio.png)
 
+#####  3-4 Bio and Projects Section
+
 ![Fourth screenshot | bio + projects section](screenshot-website-pages/medium-display-932px-d-bio-project.png)
+
+#####  3-5 Projects Section
 
 ![Fifth screenshot | projects section](screenshot-website-pages/medium-display-932px-e-projects.png)
 
+#####  3-6 Contact Section
+
 ![Sixth screenshot | contact section](screenshot-website-pages/medium-display-932px-f-contact.png)
+
+#####  3-7 Contact and Footer Section
 
 ![Seventh screenshot | contact + footer section](screenshot-website-pages/medium-display-932px-g-contact-footer.png)
 
-####  screenshot-small-display-466px
+####  4- Screenshot - Small Display - 466px:
+
+#####  4-1 Header, Hero and Bio Section
 
 ![first screenshot | header + hero + bio section](screenshot-website-pages/small-display-466px-a-header-hero-bio.png)
 
-![Second screenshot | bio + project section](screenshot-website-pages/small-display-466px-b-bio-projects.png)
+#####  4-2 Bio and Projects Section
+
+![Second screenshot | bio + projects section](screenshot-website-pages/small-display-466px-b-bio-projects.png)
+
+#####  4-3 Projects Section
 
 ![Third screenshot | projects section](screenshot-website-pages/small-display-466px-c-projects.png)
 
+#####  4-4 Projects and Contact Section
+
 ![Fourth screenshot | projects + contact section](screenshot-website-pages/small-display-466px-d-projects-contact.png)
+
+#####  4-5 Projects, Contact and Footer Section
 
 ![Fifth screenshot | projects + contact + footer section](screenshot-website-pages/small-display-466px-e-project-contact-footer.png)
 
-####  screenshot-action-navigation-buttons
+####  5- Screenshot - Action Navigation Buttons:
 
+#####  5-1 "View My Resume" Button Normal Mode
 ![first screenshot | view my resume button normal mode](screenshot-website-pages/action1.png)
 
+#####  5-2 "View My Resume" Button Action Mode
 ![Second screenshot | view my resume button action mode](screenshot-website-pages/action2.png)
 
+#####  5-3 "Contact" Button Normal Mode
+
 ![Third screenshot | contact button normal mode](screenshot-website-pages/action3.png)
+
+#####  5-4 "Contact" Button Action Mode
 
 ![Fourth screenshot | contact button action mode](screenshot-website-pages/action4.png)
 
