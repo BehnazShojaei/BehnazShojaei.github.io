@@ -47,6 +47,7 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 
 ###  Screenshots
 1. [Screenshot - Wireframes](#1-screenshot---wireframes)
+
  ( [ Desktop View ](#1-1--wireframes---desktop-view) | [Desktop View](#1-2--wireframes---mobile-view))
 
 2. [ Large display ](#2--screenshot---large-display---1423px)
