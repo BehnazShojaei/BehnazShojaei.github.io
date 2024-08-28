@@ -76,6 +76,7 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
  | [ Project, contact and Footer Section](#4-5-projects-contact-and-footer-section))
  
 5. [Screenshots - Action Navigation Buttons](#5--screenshot---action-navigation-buttons)
+
 ( [ First Button Normal Mode ](#5-1-view-my-resume-button-normal-mode)
  | [ First Button Action Mode ](#5-2-view-my-resume-button-action-mode)
  | [ Second Button Normal Mode ](#5-3-contact-button-normal-mode)
