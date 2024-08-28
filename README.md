@@ -45,8 +45,12 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
       
 ​I have all my social icons, buttons to download resume or navigating to next page interactive. They will scale up once hover over or will have different border and background colour where applicable.
 
-
-
+####  Screenshots
+1. [Screenshot - Wireframes](Wireframes---Wireframes)
+2. [Screenshot - Large display](Large display---Large display)
+3. [Screenshot - Medium display](Medium display---Medium display)
+4. [Screenshot - small display](small display---small display)
+5. [Screenshot - action navigation buttons](action navigation buttons---action navigation buttons)
 
 ####  screenshot-wireframes:
 ####  1. wireframes-desktop view
