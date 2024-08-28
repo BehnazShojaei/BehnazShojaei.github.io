@@ -50,59 +50,59 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 
 ####  screenshot-wireframes
 
-![first screenshot | wireframe desktop view] (screenshot-website-pages\wireframe desktop view.jpg)
+![first screenshot | wireframe desktop view](screenshot-website-pages/wireframe desktop view.jpg)
 
 ![Second screenshot | wireframe mobile view] 
-(screenshot-website-pages\wireframe mobile view.jpg)
+(screenshot-website-pages/wireframe mobile view.jpg)
 
 
 ####  screenshot-large-display-1423px
 
-![first screenshot | header + hero section] (screenshot-website-pages\large-display-1423px-a-header-hero.png)
+![first screenshot | header + hero section](screenshot-website-pages/large-display-1423px-a-header-hero.png)
 
-![Second screenshot | bio section] (screenshot-website-pages\large-display-1423px-b-bio.png)
+![Second screenshot | bio section](screenshot-website-pages/large-display-1423px-b-bio.png)
 
-![Third screenshot | projects section] (screenshot-website-pages\large-display-1423px-c-projects.png)
+![Third screenshot | projects section](screenshot-website-pages/large-display-1423px-c-projects.png)
 
-![Fourth screenshot | contact + footer section] (screenshot-website-pages\large-display-1423px-d-contact-footer.png)
+![Fourth screenshot | contact + footer section](screenshot-website-pages/large-display-1423px-d-contact-footer.png)
 
 ####  screenshot-medium-display-932px
 
-![first screenshot | header + hero section] (screenshot-website-pages\medium-display-932px-a-header-hero.png)
+![first screenshot | header + hero section](screenshot-website-pages/medium-display-932px-a-header-hero.png)
 
-![Second screenshot | hero section] (screenshot-website-pages\medium-display-932px-b-hero.png)
+![Second screenshot | hero section](screenshot-website-pages/medium-display-932px-b-hero.png)
 
-![Third screenshot | bio section] (screenshot-website-pages\medium-display-932px-c-bio.png)
+![Third screenshot | bio section](screenshot-website-pages/medium-display-932px-c-bio.png)
 
-![Fourth screenshot | bio + projects section] (screenshot-website-pages\medium-display-932px-d-bio-project.png)
+![Fourth screenshot | bio + projects section](screenshot-website-pages/medium-display-932px-d-bio-project.png)
 
-![Fifth screenshot | projects section] (screenshot-website-pages\medium-display-932px-e-projects.png)
+![Fifth screenshot | projects section](screenshot-website-pages/medium-display-932px-e-projects.png)
 
-![Sixth screenshot | contact section] (screenshot-website-pages\medium-display-932px-f-contact.png)
+![Sixth screenshot | contact section](screenshot-website-pages/medium-display-932px-f-contact.png)
 
-![Seventh screenshot | contact + footer section] (screenshot-website-pages\medium-display-932px-g-contact-footer.png)
+![Seventh screenshot | contact + footer section](screenshot-website-pages/medium-display-932px-g-contact-footer.png)
 
 ####  screenshot-small-display-466px
 
-![first screenshot | header + hero + bio section] (screenshot-website-pages\small-display-466px-a-header-hero-bio.png)
+![first screenshot | header + hero + bio section](screenshot-website-pages/small-display-466px-a-header-hero-bio.png)
 
-![Second screenshot | bio + project section] (screenshot-website-pages\small-display-466px-b-bio-projects.png)
+![Second screenshot | bio + project section](screenshot-website-pages/small-display-466px-b-bio-projects.png)
 
-![Third screenshot | projects section] (screenshot-website-pages\small-display-466px-c-projects.png)
+![Third screenshot | projects section](screenshot-website-pages/small-display-466px-c-projects.png)
 
-![Fourth screenshot | projects + contact section] (screenshot-website-pages\small-display-466px-d-projects-contact.png)
+![Fourth screenshot | projects + contact section](screenshot-website-pages/small-display-466px-d-projects-contact.png)
 
-![Fifth screenshot | projects + contact + footer section] (screenshot-website-pages\small-display-466px-e-project-contact-footer.png)
+![Fifth screenshot | projects + contact + footer section](screenshot-website-pages/small-display-466px-e-project-contact-footer.png)
 
 ####  screenshot-action-navigation-buttons
 
-![first screenshot | view my resume button normal mode] (screenshot-website-pages\action1.png)
+![first screenshot | view my resume button normal mode](screenshot-website-pages/action1.png)
 
 ![Second screenshot | view my resume button action mode] 
-(screenshot-website-pages\action2.png)
+(screenshot-website-pages/action2.png)
 
-![Third screenshot | contact button normal mode] (screenshot-website-pages\action3.png)
+![Third screenshot | contact button normal mode](screenshot-website-pages/action3.png)
 
-![Fourth screenshot | contact button action mode] (screenshot-website-pages\action4.png)
+![Fourth screenshot | contact button action mode](screenshot-website-pages/action4.png)
 
 
