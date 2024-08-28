@@ -46,33 +46,49 @@ I used meaningful, related names, tags, labels, Alt text for all elements to hel
 ​I have all my social icons, buttons to download resume or navigating to next page interactive. They will scale up once hover over or will have different border and background colour where applicable.
 
 ###  Screenshots
-1. [Screenshot - Wireframes](#Screenshot---Wireframes)
-2. [Screenshot - Large display](Large display---Large display)
+1. [Screenshot - Wireframes](#1-screenshot---wireframes)
+ 1.1. [Wireframes - Desktop View](#1-1--wireframes---desktop-view)
+ 1.2. [Wireframes - Desktop View](#1-2--wireframes---mobile-view)
+
+2. [Screenshot - Large display](#2--screenshot---large-display---1423px)
+ 2.1 [Large display - Header and Hero Section](#2-1--header-and-hero-section)
+ 2.2 [Large display - Bio Section](#2-2--bio-section)
+ 2.3 [Large display - Projects Section](#2-3--projects-section)
+ 2.4 [Large display - Contact and Footer Section](#2-4--contact-and-footer-section)
+ 
 3. [Screenshot - Medium display](Medium display---Medium display)
 4. [Screenshot - small display](small display---small display)
 5. [Screenshot - action navigation buttons](action navigation buttons---action navigation buttons)
 
-####  Screenshot - Wireframes:
-#####  1. wireframes-desktop view
+####  1- Screenshot - Wireframes:
+
+#####  1-1- Wireframes - Desktop View
 
 ![first screenshot | wireframe desktop view](screenshot-website-pages/wireframe-desktop-view.jpg)
 
-####  2.wireframes-mobile view
+#####  1-2- Wireframes - Mobile View
 
 ![Second screenshot | wireframe mobile view](screenshot-website-pages/wireframe-mobile-view.jpg)
 
+####  2- Screenshot - Large Display - 1423px:
 
-
-
-####  screenshot-large-display-1423px
+#####  2-1- Header and Hero Section
 
 ![first screenshot | header + hero section](screenshot-website-pages/large-display-1423px-a-header-hero.png)
 
+#####  2-2- Bio Section
+
 ![Second screenshot | bio section](screenshot-website-pages/large-display-1423px-b-bio.png)
+
+#####  2-3- Projects Section
 
 ![Third screenshot | projects section](screenshot-website-pages/large-display-1423px-c-projects.png)
 
+#####  2-4- Contact and Footer Section
+
 ![Fourth screenshot | contact + footer section](screenshot-website-pages/large-display-1423px-d-contact-footer.png)
+
+
 
 ####  screenshot-medium-display-932px
 
